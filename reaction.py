@@ -1,3 +1,4 @@
+import math
 
 class Reaction:
     def __init__(self):
@@ -19,8 +20,8 @@ class Reaction:
             self.react_linear(dt)
 
     def react_linear(self, dt):
-        mod = floor(len(constants)/2)
-        for i in range(len(reagents)):
-            reagents[i].quant -= dt * constants[mod - 1 - i]
-        for i in range(len(products)):
-            products[i].quand += dt * constants[mod + i]
+        mod = math.floor(len(self.constants)/2)
+        for i in range(len(self.reagents)):
+            self.reagents[i].quant -= dt * self.constants[mod - 1 - i]
+        for i in range(len(self.products)):
+            self.products[i].quant += dt * self.constants[mod + i]
