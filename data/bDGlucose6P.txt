@@ -1,0 +1,10 @@
+NAME
+bDGlucose6P
+
+POSITION
+200 100
+
+PRODUCTS
+DGlucono linear 1
+H6PD linear 1
+aDGlucose6P linear 1

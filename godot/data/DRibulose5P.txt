@@ -1,0 +1,9 @@
+NAME
+DRibulose5P
+
+POSITION
+800 400
+
+PRODUCTS
+DRibose5P linear 1
+DXylulose5P

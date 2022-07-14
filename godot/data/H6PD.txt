@@ -1,0 +1,8 @@
+NAME
+H6PD
+
+POSITION
+500 50
+
+PRODUCTS
+DGluconate6P linear 1

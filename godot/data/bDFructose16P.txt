@@ -1,0 +1,8 @@
+NAME
+bDFructose16P
+
+POSITION
+200 600
+
+PRODUCTS
+DGlyceraldehyde3P linear 1

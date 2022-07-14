@@ -1,0 +1,9 @@
+NAME
+DGlyceraldehyde3P
+
+POSITION
+200 800
+
+PRODUCTS
+bDFructose16P
+DRibose5P

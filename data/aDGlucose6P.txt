@@ -1,0 +1,9 @@
+NAME
+aDGlucose6P
+
+POSITION
+200 200
+
+PRODUCTS
+bDGlucose6P linear 1
+bDFructose6P

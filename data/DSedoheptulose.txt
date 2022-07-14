@@ -1,0 +1,11 @@
+NAME
+DSedoheptulose
+
+POSITION
+300 500
+
+PRODUCTS
+DXylulose5P
+DRibose5P
+DGlyceraldehyde3P
+bDFructose6P
