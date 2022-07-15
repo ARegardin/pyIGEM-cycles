@@ -13,6 +13,7 @@ margin_left = -70.0
 margin_top = -20.0
 margin_right = 70.0
 margin_bottom = 20.0
+mouse_filter = 2
 
 [node name="name_label" type="Label" parent="ui"]
 margin_left = -100.0

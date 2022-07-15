@@ -1,8 +1,0 @@
-NAME
-DGluconate6P
-
-POSITION
-800 100
-
-PRODUCTS
-DRibulose5P

@@ -1,8 +1,0 @@
-NAME
-DGlucono
-
-POSITION
-500 100
-
-PRODUCTS
-DGluconate6P linear 1

@@ -4,11 +4,11 @@ var molecule_scene = preload("res://scenes/molecule.tscn")
 var molecules = []
 
 func _ready():
-	create_model("./data")
+	create_model("../data")
 
 # - Create the model from a directory
 func create_model(dir):
-	var data = DataUtilities.read_model_dir("./data")
+	var data = DataUtilities.read_model_dir(dir)
 	for mol in data:
 		var a = molecule_scene.instance()
 		self.add_child(a)
@@ -50,3 +50,4 @@ func model_step(dt):
 
 func _process(delta):
 	model_step(delta)
+	update()

@@ -1,9 +1,0 @@
-NAME
-DRibose5P
-
-POSITION
-800 600
-
-PRODUCTS
-DGlyceraldehyde3P linear 1
-DRibulose5P
