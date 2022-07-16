@@ -6,6 +6,7 @@ export var molname = ""
 
 var products = {}
 var quantity = 0
+onready var color = Color(randf(), randf(), randf())
 
 func _ready():
 	randomize()
