@@ -5,5 +5,5 @@ POSITION
 200 800
 
 PRODUCTS
-bDFructose16P
-DRibose5P
+bDFructose16P michaelis 1 30
+DRibose5P michaelis 1 30

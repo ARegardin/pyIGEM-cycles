@@ -42,7 +42,7 @@ class Reaction:
         for i in range(len(self.products)):
             self.products[i].quant += dt * self.constants[mod + i]
 
-    def react_michaelis(self, dt):
+    def old_react_michaelis(self, dt):
         mod = math.floor(len(self.constants)/2)
         speed = abs(self.speed_func(self.reagents[0].quant))
         

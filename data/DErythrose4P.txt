@@ -5,7 +5,7 @@ POSITION
 300 400
 
 PRODUCTS
-bDFructose6P
-DXylulose5P
-DGlyceraldehyde3P
-DSedoheptulose
+bDFructose6P linear 1
+DXylulose5P linear 1
+DGlyceraldehyde3P linear 1
+DSedoheptulose linear 1

@@ -6,4 +6,4 @@ POSITION
 
 PRODUCTS
 DGlyceraldehyde3P linear 1
-DRibulose5P
+DRibulose5P linear 1

@@ -1,0 +1,12 @@
+NAME
+bDFructose6P
+
+POSITION
+200 300
+
+PRODUCTS
+bDFructose16P linear 1
+aDGlucose6P linear 1
+DXylulose5P linear 1
+DErythrose4P linear 1
+DGlyceraldehyde3P linear 1

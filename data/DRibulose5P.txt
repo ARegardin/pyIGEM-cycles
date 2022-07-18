@@ -6,4 +6,4 @@ POSITION
 
 PRODUCTS
 DRibose5P linear 1
-DXylulose5P
+DXylulose5P linear 1

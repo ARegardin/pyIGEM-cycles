@@ -5,7 +5,7 @@ POSITION
 300 500
 
 PRODUCTS
-DXylulose5P
-DRibose5P
-DGlyceraldehyde3P
-bDFructose6P
+DXylulose5P linear 1
+DRibose5P linear 1
+DGlyceraldehyde3P linear 1
+bDFructose6P linear 1

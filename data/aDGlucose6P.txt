@@ -6,4 +6,4 @@ POSITION
 
 PRODUCTS
 bDGlucose6P linear 1
-bDFructose6P
+bDFructose6P linear 1

@@ -5,4 +5,4 @@ POSITION
 800 100
 
 PRODUCTS
-DRibulose5P
+DRibulose5P linear 1

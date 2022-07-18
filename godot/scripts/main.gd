@@ -41,9 +41,16 @@ func model_step(dt):
 				if mol2.molname == mol1.products[key][0]:
 					
 					# Linear
-					var net = previous_quantities[mol1.molname] * dt
-					mol1.quantity -= net
-					mol2.quantity += net
+					if mol1.products[key][1] == "linear":
+						var net = previous_quantities[mol1.molname] * dt * float(mol1.products[key][2])
+						mol1.quantity -= net
+						mol2.quantity += net
+					
+					# Michaelis
+					elif mol1.products[key][1] == "michaelis" or mol1.products[key][1] == "micha":
+						var net = (previous_quantities[mol1.molname] / (previous_quantities[mol1.molname] + float(mol1.products[key][2]))) * dt * float(mol1.products[key][3])
+						mol1.quantity -= net
+						mol2.quantity += net
 	
 		if mol1.quantity < 0:
 			mol1.quantity = 0
