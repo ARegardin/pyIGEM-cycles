@@ -1,0 +1,8 @@
+NAME
+DGlucono15Lactone6P
+
+POSITION
+500 100
+
+REACTIONS
+PPPathway Products:DGluconate6P Enzyme:6PGL Type:nonreversible

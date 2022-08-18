@@ -1,0 +1,9 @@
+NAME
+DSedoHeptulose17P2
+
+POSITION
+
+
+REACTIONS
+Calvin Products:DErythrose4P,DHAP Enzyme:Aldolase Type:reversible
+Calvin Products:DSedoheptulose7P Enzyme:SeduloseBisphosphatase Type:reversible

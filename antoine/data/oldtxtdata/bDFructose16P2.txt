@@ -1,0 +1,10 @@
+NAME
+bDFructose16P2
+
+POSITION
+200 600
+
+REACTIONS
+Glycolysis Products:DHAP,G3P Enzyme:Aldolase Type:reversible
+Calvin Products:bDFructose6P Enzyme:FBPase Type:nonreversible
+Calvin Products:DHAP,G3P Enzyme:Aldolase Type:reversible

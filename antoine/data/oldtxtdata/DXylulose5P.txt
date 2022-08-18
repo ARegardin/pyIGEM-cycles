@@ -1,0 +1,13 @@
+NAME
+DXylulose5P
+
+POSITION
+500 300
+
+REACTIONS
+PPPathway Products:DRibulose5P Enzyme:PPE Type:reversible
+PPPathway Coreactants:DRibose5P Products:DSedoHeptulose7P,G3P Enzyme:TK Type:reversible
+PPPathway Coreactants:DErythrose4P Products:bDFructose6P,G3P Enzyme:TK Type:reversible
+Calvin Coreactants:DErythrose4P Products:bDFructose6P,G3P Enzyme:TK Type:reversible
+Calvin Coreactants:DRibose5P Products:DSedoHeptulose7P,G3P Enzyme:TK Type:reversible
+Calvin Products:DRibulose5P Enzyme:PPE Type:reversible

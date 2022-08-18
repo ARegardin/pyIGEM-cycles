@@ -1,0 +1,14 @@
+NAME
+bDFructose6P
+
+POSITION
+200 300
+
+REACTIONS
+Glycolysis Products:aDGlucose6P Enzyme:GPI Type:reversible
+Glycolysis Products:bDGlucose6P Enzyme:GPI Type:reversible
+Glycolysis Coreactants:ATP Products:ADP,bDFructose16P2 Enzyme:PFK Type:nonreversible
+PPPathway Products:aDGlucose Enzyme:GPI Type:reversible
+PPPathway Coreactants:DErythrose4P Products:G3P,DSedoHeptulose7P Enzyme:Transaldolase Type:reversible
+PPPathway Coreactants:G3P Products:DErythrose4P,DXylulose5P Enzyme:TK Type:reversible
+Calvin Coreactants:G3P Products:DErythrose4P,DXylulose5P Enzyme:TK Type:reversible

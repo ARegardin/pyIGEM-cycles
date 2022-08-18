@@ -1,0 +1,8 @@
+NAME
+DRibulose15BisPhosphate
+
+POSITION
+
+
+REACTIONS
+Calvin Coreactants:CO2 Products:Gycerate3P,Glycerate3P Enzyme:RuBisCo Type:nonreversible

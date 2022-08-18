@@ -1,0 +1,11 @@
+NAME
+DErythrose4P
+
+POSITION
+300 400
+
+REACTIONS
+PPPathway Coreactants:DXylulose5P Products:bDFructose6P,G3P Enzyme:TK Type:reversible
+PPPathway Coreactants:bDFructose6P Products:G3P,DSedoHeptulose7P Enzyme:Transaldolase Type:reversible
+Calvin Coreactants:Xylulose5P Products:G3P,bDFructose6P Enzyme:TK Type:reversible
+Calvin Coreactants:DHAP Products:DSedoHeptulose17P2 Enzyme:Aldolase Type:reversible

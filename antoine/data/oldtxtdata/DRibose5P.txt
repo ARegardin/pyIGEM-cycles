@@ -1,0 +1,11 @@
+NAME
+DRibose5P
+
+POSITION
+800 600
+
+REACTIONS
+PPPathway Products:DRibulose5P Enzyme:Rpi Type:reversible
+PPPathway Coreactants:DXylulose5P Products:DSedoHeptulose7P,G3P Enzyme:TK Type:reversible
+Calvin Products:DRibulose5P Enzyme:Rpi Type:reversible
+Calvin Coreactants:DXylulose5P Products:DSedoHeptulose7P,G3P Enzyme:TK Type:reversible

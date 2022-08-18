@@ -1,0 +1,12 @@
+NAME
+DRibulose5P
+
+POSITION
+800 400
+
+REACTIONS
+PPPathway Products:DXylulose5P Enzyme:PPE Type:reversible
+PPPathway Products:DRibose5P Enzyme:Rpi Type:reversible
+Calvin Products:DXylulose5P Enzyme:PPE Type:reversible
+Calvin Products:DRibose5P Enzyme:Rpi Type:reversible
+Calvin Coreactants:ATP Products:ADP,DRibulose15BisPhosphate Enzyme:??? Type:nonreversible

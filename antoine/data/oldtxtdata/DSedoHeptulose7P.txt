@@ -1,0 +1,11 @@
+NAME
+DSedoHeptulose7P
+
+POSITION
+300 500
+
+REACTIONS
+PPPathway Coreactants:G3P Products:bDFructose,DErythrose4P Enzyme:Transaldolase Type:reversible
+PPPathway Coreactants:G3P Products:DXylulose5P,DRibose5P Enzyme:TK Type:reversible
+Calvin Products:DSedoHeptulose17P2 Enzyme:SeduloseBisphosphatase Type:reversible
+Calvin Coreactants:G3P Products:DRibose5P,DXylulose5P Enzyme:TK Type:reversible

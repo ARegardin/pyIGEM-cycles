@@ -1,0 +1,10 @@
+NAME
+Glycerate3P
+
+POSITION
+
+
+REACTIONS
+Glycolysis Coreactants:ATP Products:ADP,Glycerate13P2 Enzyme:PGK1 Type:reversible
+Glycolysis Products:Glycerate2P Enzyme:PGAM1 Type:reversible
+Calvin Coreactants:ATP Products:ADP,Glycerate13P2 Enzyme:PGK1 Type:reversible

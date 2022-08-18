@@ -1,0 +1,9 @@
+NAME
+bDGlucose
+
+POSITION
+500 100
+
+REACTIONS
+Glycolysis Products:aDGlucose Enzyme:Aldose1Epimerase Type:reversible
+Glycolysis Coreactants:ATP Products:ADP,bDGlucose6P Enzyme:Glucokinase Type:nonreversible

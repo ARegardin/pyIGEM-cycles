@@ -1,0 +1,8 @@
+NAME
+DGluconate6P
+
+POSITION
+800 100
+
+REACTIONS
+PPPathway Coreactants:NADP Products:NADPH,CO2(production),DRibulose5P Enzyme:6PGD Type:nonreversible

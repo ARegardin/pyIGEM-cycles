@@ -1,0 +1,11 @@
+NAME
+Glycerate13P2
+
+POSITION
+
+
+REACTIONS
+Glycolysis Coreactants:NADPH Products:NADP,G3P Enzyme:GAPDH Type:reversible
+Glycolysis Coreactants:ADP Products:ATP,Glycerate3P Enzyme:PGK1 Type:reversible
+Calvin Coreactants:NADPH Products:NADP,G3P Enzyme:G3PDeshydrogenase Type:reversible
+Calvin Coreactants:ADP Products:ATP,Glycerate3P Enzyme:PGK1 Type:reversible

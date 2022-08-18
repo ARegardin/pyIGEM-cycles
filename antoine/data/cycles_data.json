@@ -1,0 +1,1167 @@
+[
+    {
+        "name": "aDGlucose",
+        "position": {
+            "x": 0,
+            "y": 0
+        },
+        "reactions": [
+            {
+                "cycles": [
+                    "Glycolysis"
+                ],
+                "coreactants": [
+                    "None"
+                ],
+                "products": [
+                    "bDGlucose"
+                ],
+                "enzyme": "Aldose1Epimerase",
+                "type": "reversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "Glycolysis"
+                ],
+                "coreactants": [
+                    "ATP"
+                ],
+                "products": [
+                    [
+                        "ADP",
+                        "aDGlucose6P"
+                    ]
+                ],
+                "enzyme": "Glucokinase",
+                "type": "nonreversible",
+                "coefthermo": 1
+            }
+        ]
+    },
+    {
+        "name": "aDGlucose6P",
+        "position": {
+            "x": 0,
+            "y": 0
+        },
+        "reactions": [
+            {
+                "cycles": [
+                    "Glycolysis",
+                    "PPPathway"
+                ],
+                "coreactants": [
+                    "None"
+                ],
+                "products": [
+                    "bDGlucose6P"
+                ],
+                "enzyme": "GPI",
+                "type": "reversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "Glycolysis",
+                    "PPPathway"
+                ],
+                "coreactants": [
+                    "None"
+                ],
+                "products": [
+                    "bDFructose6P"
+                ],
+                "enzyme": "GPI",
+                "type": "reversible",
+                "coefthermo": 1
+            }
+        ]
+    },
+    {
+        "name": "bDFructose6P",
+        "position": {
+            "x": 0,
+            "y": 0
+        },
+        "reactions": [
+            {
+                "cycles": [
+                    "Glycolysis"
+                ],
+                "coreactants": [
+                    "None"
+                ],
+                "products": [
+                    "aDGlucose6P"
+                ],
+                "enzyme": "GPI",
+                "type": "reversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "Glycolysis"
+                ],
+                "coreactants": [
+                    "None"
+                ],
+                "products": [
+                    "bDGlucose6P"
+                ],
+                "enzyme": "GPI",
+                "type": "reversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "Glycolysis"
+                ],
+                "coreactants": [
+                    "ATP"
+                ],
+                "products": [
+                    [
+                        "ADP",
+                        "bDFructose16P2"
+                    ]
+                ],
+                "enzyme": "PFK",
+                "type": "nonreversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "PPPathway"
+                ],
+                "coreactants": [
+                    "None"
+                ],
+                "products": [
+                    "aDGlucose"
+                ],
+                "enzyme": "GPI",
+                "type": "reversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "PPPathway"
+                ],
+                "coreactants": [
+                    "DErythrose4P"
+                ],
+                "products": [
+                    [
+                        "G3P",
+                        "DSedoHeptulose7P"
+                    ]
+                ],
+                "enzyme": "Transaldolase",
+                "type": "reversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "PPPathway",
+                    "Calvin"
+                ],
+                "coreactants": [
+                    "G3P"
+                ],
+                "products": [
+                    [
+                        "DErythrose4P",
+                        "DXylulose5P"
+                    ]
+                ],
+                "enzyme": "TK",
+                "type": "reversible",
+                "coefthermo": 1
+            }
+        ]
+    },
+    {
+        "name": "bDFructose16P2",
+        "position": {
+            "x": 0,
+            "y": 0
+        },
+        "reactions": [
+            {
+                "cycles": [
+                    "Glycolysis",
+                    "Calvin"
+                ],
+                "coreactants": [
+                    "None"
+                ],
+                "products": [
+                    [
+                        "DHAP",
+                        "G3P"
+                    ]
+                ],
+                "enzyme": "Aldolase",
+                "type": "reversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "Calvin"
+                ],
+                "coreactants": [
+                    "None"
+                ],
+                "products": [
+                    "bDFructose6P"
+                ],
+                "enzyme": "FBPase",
+                "type": "nonreversible",
+                "coefthermo": 1
+            }
+        ]
+    },
+    {
+        "name": "bDGlucose",
+        "position": {
+            "x": 0,
+            "y": 0
+        },
+        "reactions": [
+            {
+                "cycles": [
+                    "Glycolysis"
+                ],
+                "coreactants": [
+                    "None"
+                ],
+                "products": [
+                    "aDGlucose"
+                ],
+                "enzyme": "Aldose1Epimerase",
+                "type": "reversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "Glycolysis"
+                ],
+                "coreactants": [
+                    "ATP"
+                ],
+                "products": [
+                    [
+                        "ADP",
+                        "bDGlucose6P"
+                    ]
+                ],
+                "enzyme": "Glucokinase",
+                "type": "nonreversible",
+                "coefthermo": 1
+            }
+        ]
+    },
+    {
+        "name": "bDGlucose6P",
+        "position": {
+            "x": 0,
+            "y": 0
+        },
+        "reactions": [
+            {
+                "cycles": [
+                    "Glycolysis"
+                ],
+                "coreactants": [
+                    "None"
+                ],
+                "products": [
+                    "bDFRuctose6P"
+                ],
+                "enzyme": "GPI",
+                "type": "reversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "Glycolysis",
+                    "PPPathway"
+                ],
+                "coreactants": [
+                    "None"
+                ],
+                "products": [
+                    "aDGlucose6P"
+                ],
+                "enzyme": "GPI",
+                "type": "reversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "PPPathway"
+                ],
+                "coreactants": [
+                    "None"
+                ],
+                "products": [
+                    "DGluconate6P"
+                ],
+                "enzyme": "H6PD",
+                "type": "nonreversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "PPPathway"
+                ],
+                "coreactants": [
+                    "NADP"
+                ],
+                "products": [
+                    [
+                        "NADPH",
+                        "DGlucono15Lactone6P"
+                    ]
+                ],
+                "enzyme": "G6PD",
+                "type": "nonreversible",
+                "coefthermo": 1
+            }
+        ]
+    },
+    {
+        "name": "DErythrose4P",
+        "position": {
+            "x": 0,
+            "y": 0
+        },
+        "reactions": [
+            {
+                "cycles": [
+                    "PPPathway"
+                ],
+                "coreactants": [
+                    "DXylulose5P"
+                ],
+                "products": [
+                    [
+                        "bDFructose6P",
+                        "G3P"
+                    ]
+                ],
+                "enzyme": "TK",
+                "type": "reversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "PPPathway"
+                ],
+                "coreactants": [
+                    "bDFructose6P"
+                ],
+                "products": [
+                    [
+                        "G3P",
+                        "DSedoHeptulose7P"
+                    ]
+                ],
+                "enzyme": "Transaldolase",
+                "type": "reversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "Calvin"
+                ],
+                "coreactants": [
+                    "Xylulose5P"
+                ],
+                "products": [
+                    [
+                        "G3P",
+                        "bDFructose6P"
+                    ]
+                ],
+                "enzyme": "TK",
+                "type": "reversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "Calvin"
+                ],
+                "coreactants": [
+                    "DHAP"
+                ],
+                "products": [
+                    "DSedoHeptulose17P2"
+                ],
+                "enzyme": "Aldolase",
+                "type": "reversible",
+                "coefthermo": 1
+            }
+        ]
+    },
+    {
+        "name": "DGluconate6P",
+        "position": {
+            "x": 0,
+            "y": 0
+        },
+        "reactions": [
+            {
+                "cycles": [
+                    "PPPathway"
+                ],
+                "coreactants": [
+                    "NADP"
+                ],
+                "products": [
+                    [
+                        "NADPH",
+                        "CO2(production)",
+                        "DRibulose5P"
+                    ]
+                ],
+                "enzyme": "6PGD",
+                "type": "nonreversible",
+                "coefthermo": 1
+            }
+        ]
+    },
+    {
+        "name": "DGlucono15Lactone6P",
+        "position": {
+            "x": 0,
+            "y": 0
+        },
+        "reactions": [
+            {
+                "cycles": [
+                    "PPPathway"
+                ],
+                "coreactants": [
+                    "None"
+                ],
+                "products": [
+                    "DGluconate6P"
+                ],
+                "enzyme": "6PGL",
+                "type": "nonreversible",
+                "coefthermo": 1
+            }
+        ]
+    },
+    {
+        "name": "DHAP",
+        "position": {
+            "x": 0,
+            "y": 0
+        },
+        "reactions": [
+            {
+                "cycles": [
+                    "Glycolysis",
+                    "Calvin"
+                ],
+                "coreactants": [
+                    "None"
+                ],
+                "products": [
+                    "G3P"
+                ],
+                "enzyme": "TPI",
+                "type": "reversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "Glycolysis",
+                    "Calvin"
+                ],
+                "coreactants": [
+                    "G3P"
+                ],
+                "products": [
+                    "bDFructose16P2"
+                ],
+                "enzyme": "Aldolase",
+                "type": "reversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "Calvin"
+                ],
+                "coreactants": [
+                    "DErythrose4P"
+                ],
+                "products": [
+                    "DSedoHeptulose17P2"
+                ],
+                "enzyme": "Aldolase",
+                "type": "reversible",
+                "coefthermo": 1
+            }
+        ]
+    },
+    {
+        "name": "DRibose5P",
+        "position": {
+            "x": 0,
+            "y": 0
+        },
+        "reactions": [
+            {
+                "cycles": [
+                    "PPPathway",
+                    "Calvin"
+                ],
+                "coreactants": [
+                    "None"
+                ],
+                "products": [
+                    "DRibulose5P"
+                ],
+                "enzyme": "Rpi",
+                "type": "reversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "PPPathway",
+                    "Calvin"
+                ],
+                "coreactants": [
+                    "DXylulose5P"
+                ],
+                "products": [
+                    [
+                        "DSedoHeptulose7P",
+                        "G3P"
+                    ]
+                ],
+                "enzyme": "TK",
+                "type": "reversible",
+                "coefthermo": 1
+            }
+        ]
+    },
+    {
+        "name": "DRibulose5P",
+        "position": {
+            "x": 0,
+            "y": 0
+        },
+        "reactions": [
+            {
+                "cycles": [
+                    "PPPathway",
+                    "Calvin"
+                ],
+                "coreactants": [
+                    "None"
+                ],
+                "products": [
+                    "DXylulose5P"
+                ],
+                "enzyme": "PPE",
+                "type": "reversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "PPPathway",
+                    "Calvin"
+                ],
+                "coreactants": [
+                    "None"
+                ],
+                "products": [
+                    "DRibose5P"
+                ],
+                "enzyme": "Rpi",
+                "type": "reversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "Calvin"
+                ],
+                "coreactants": [
+                    "ATP"
+                ],
+                "products": [
+                    [
+                        "ADP",
+                        "DRibulose15BisPhosphate"
+                    ]
+                ],
+                "enzyme": "???",
+                "type": "nonreversible",
+                "coefthermo": 1
+            }
+        ]
+    },
+    {
+        "name": "DRibulose15BisPhosphate",
+        "position": {
+            "x": 0,
+            "y": 0
+        },
+        "reactions": [
+            {
+                "cycles": [
+                    "Calvin"
+                ],
+                "coreactants": [
+                    "CO2"
+                ],
+                "products": [
+                    [
+                        "Gycerate3P",
+                        "Glycerate3P"
+                    ]
+                ],
+                "enzyme": "RuBisCo",
+                "type": "nonreversible",
+                "coefthermo": 1
+            }
+        ]
+    },
+    {
+        "name": "DSedoHeptulose7P",
+        "position": {
+            "x": 0,
+            "y": 0
+        },
+        "reactions": [
+            {
+                "cycles": [
+                    "PPPathway"
+                ],
+                "coreactants": [
+                    "G3P"
+                ],
+                "products": [
+                    [
+                        "bDFructose",
+                        "DErythrose4P"
+                    ]
+                ],
+                "enzyme": "Transaldolase",
+                "type": "reversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "PPPathway"
+                ],
+                "coreactants": [
+                    "G3P"
+                ],
+                "products": [
+                    [
+                        "DXylulose5P",
+                        "DRibose5P"
+                    ]
+                ],
+                "enzyme": "TK",
+                "type": "reversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "Calvin"
+                ],
+                "coreactants": [
+                    "None"
+                ],
+                "products": [
+                    "DSedoHeptulose17P2"
+                ],
+                "enzyme": "SeduloseBisphosphatase",
+                "type": "reversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "Calvin"
+                ],
+                "coreactants": [
+                    "G3P"
+                ],
+                "products": [
+                    [
+                        "DRibose5P",
+                        "DXylulose5P"
+                    ]
+                ],
+                "enzyme": "TK",
+                "type": "reversible",
+                "coefthermo": 1
+            }
+        ]
+    },
+    {
+        "name": "DSedoHeptulose17P2",
+        "position": {
+            "x": 0,
+            "y": 0
+        },
+        "reactions": [
+            {
+                "cycles": [
+                    "Calvin"
+                ],
+                "coreactants": [
+                    "None"
+                ],
+                "products": [
+                    [
+                        "DErythrose4P",
+                        "DHAP"
+                    ]
+                ],
+                "enzyme": "Aldolase",
+                "type": "reversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "Calvin"
+                ],
+                "coreactants": [
+                    "None"
+                ],
+                "products": [
+                    "DSedoheptulose7P"
+                ],
+                "enzyme": "SeduloseBisphosphatase",
+                "type": "reversible",
+                "coefthermo": 1
+            }
+        ]
+    },
+    {
+        "name": "DXylulose5P",
+        "position": {
+            "x": 0,
+            "y": 0
+        },
+        "reactions": [
+            {
+                "cycles": [
+                    "PPPathway",
+                    "Calvin"
+                ],
+                "coreactants": [
+                    "None"
+                ],
+                "products": [
+                    "DRibulose5P"
+                ],
+                "enzyme": "PPE",
+                "type": "reversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "PPPathway",
+                    "Calvin"
+                ],
+                "coreactants": [
+                    "DRibose5P"
+                ],
+                "products": [
+                    [
+                        "DSedoHeptulose7P",
+                        "G3P"
+                    ]
+                ],
+                "enzyme": "TK",
+                "type": "reversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "PPPathway",
+                    "Calvin"
+                ],
+                "coreactants": [
+                    "DErythrose4P"
+                ],
+                "products": [
+                    [
+                        "bDFructose6P",
+                        "G3P"
+                    ]
+                ],
+                "enzyme": "TK",
+                "type": "reversible",
+                "coefthermo": 1
+            }
+        ]
+    },
+    {
+        "name": "G3P",
+        "position": {
+            "x": 0,
+            "y": 0
+        },
+        "reactions": [
+            {
+                "cycles": [
+                    "Glycolysis"
+                ],
+                "coreactants": [
+                    "DHAP"
+                ],
+                "products": [
+                    "bDFructose16P2"
+                ],
+                "enzyme": "Aldolase",
+                "type": "reversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "Glycolysis",
+                    "Calvin"
+                ],
+                "coreactants": [
+                    "None"
+                ],
+                "products": [
+                    "DHAP"
+                ],
+                "enzyme": "TPI",
+                "type": "reversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "Glycolysis"
+                ],
+                "coreactants": [
+                    "NADP"
+                ],
+                "products": [
+                    [
+                        "NADPH",
+                        "Glycerate13P2"
+                    ]
+                ],
+                "enzyme": "GAPDH",
+                "type": "reversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "PPPathway"
+                ],
+                "coreactants": [
+                    "DSedoHeptulose7P"
+                ],
+                "products": [
+                    [
+                        "DErythrose4P",
+                        "bDFructose6P"
+                    ]
+                ],
+                "enzyme": "Transaldolase",
+                "type": "reversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "PPPathway"
+                ],
+                "coreactants": [
+                    "DSedoHeptulose7P"
+                ],
+                "products": [
+                    [
+                        "DXylulose5P",
+                        "DRibose5P"
+                    ]
+                ],
+                "enzyme": "TK",
+                "type": "reversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "PPPathway"
+                ],
+                "coreactants": [
+                    "bDFructose6P"
+                ],
+                "products": [
+                    [
+                        "DErythrose4P",
+                        "DXylulose5P"
+                    ]
+                ],
+                "enzyme": "TK",
+                "type": "reversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "Calvin"
+                ],
+                "coreactants": [
+                    "DHAP"
+                ],
+                "products": [
+                    "DFructose16P2"
+                ],
+                "enzyme": "Aldolase",
+                "type": "reversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "Calvin"
+                ],
+                "coreactants": [
+                    "bDFructose6P"
+                ],
+                "products": [
+                    [
+                        "DXylulose5P",
+                        "DErythrose4P"
+                    ]
+                ],
+                "enzyme": "TK",
+                "type": "reversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "Calvin"
+                ],
+                "coreactants": [
+                    "DSedoHeptulose7P"
+                ],
+                "products": [
+                    [
+                        "DRibose5P",
+                        "DXylulose5P"
+                    ]
+                ],
+                "enzyme": "TK",
+                "type": "reversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "Calvin"
+                ],
+                "coreactants": [
+                    "NADP"
+                ],
+                "products": [
+                    [
+                        "NADPH",
+                        "Glycerate13P2"
+                    ]
+                ],
+                "enzyme": "G3PDeshydrogenase",
+                "type": "reversible",
+                "coefthermo": 1
+            }
+        ]
+    },
+    {
+        "name": "Glycerate2P",
+        "position": {
+            "x": 0,
+            "y": 0
+        },
+        "reactions": [
+            {
+                "cycles": [
+                    "Glycolysis"
+                ],
+                "coreactants": [
+                    "None"
+                ],
+                "products": [
+                    "Glycerate3P"
+                ],
+                "enzyme": "PGAM1",
+                "type": "reversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "Glycolysis"
+                ],
+                "coreactants": [
+                    "None"
+                ],
+                "products": [
+                    "Phosphoenolpyruvate"
+                ],
+                "enzyme": "Enolase",
+                "type": "reversible",
+                "coefthermo": 1
+            }
+        ]
+    },
+    {
+        "name": "Glycerate3P",
+        "position": {
+            "x": 0,
+            "y": 0
+        },
+        "reactions": [
+            {
+                "cycles": [
+                    "Glycolysis",
+                    "Calvin"
+                ],
+                "coreactants": [
+                    "ATP"
+                ],
+                "products": [
+                    [
+                        "ADP",
+                        "Glycerate13P2"
+                    ]
+                ],
+                "enzyme": "PGK1",
+                "type": "reversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "Glycolysis"
+                ],
+                "coreactants": [
+                    "None"
+                ],
+                "products": [
+                    "Glycerate2P"
+                ],
+                "enzyme": "PGAM1",
+                "type": "reversible",
+                "coefthermo": 1
+            }
+        ]
+    },
+    {
+        "name": "Glycerate13P2",
+        "position": {
+            "x": 0,
+            "y": 0
+        },
+        "reactions": [
+            {
+                "cycles": [
+                    "Glycolysis"
+                ],
+                "coreactants": [
+                    "NADPH"
+                ],
+                "products": [
+                    [
+                        "NADP",
+                        "G3P"
+                    ]
+                ],
+                "enzyme": "GAPDH",
+                "type": "reversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "Glycolysis",
+                    "Calvin"
+                ],
+                "coreactants": [
+                    "ADP"
+                ],
+                "products": [
+                    [
+                        "ATP",
+                        "Glycerate3P"
+                    ]
+                ],
+                "enzyme": "PGK1",
+                "type": "reversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "Calvin"
+                ],
+                "coreactants": [
+                    "NADPH"
+                ],
+                "products": [
+                    [
+                        "NADP",
+                        "G3P"
+                    ]
+                ],
+                "enzyme": "G3PDeshydrogenase",
+                "type": "reversible",
+                "coefthermo": 1
+            }
+        ]
+    },
+    {
+        "name": "Phosphoenolpyruvate",
+        "position": {
+            "x": 0,
+            "y": 0
+        },
+        "reactions": [
+            {
+                "cycles": [
+                    "Glycolysis"
+                ],
+                "coreactants": [
+                    "ADP"
+                ],
+                "products": [
+                    [
+                        "ATP",
+                        "Pyruvate"
+                    ]
+                ],
+                "enzyme": "PyruvateKinase",
+                "type": "nonreversible",
+                "coefthermo": 1
+            },
+            {
+                "cycles": [
+                    "Glycolysis"
+                ],
+                "coreactants": [
+                    "None"
+                ],
+                "products": [
+                    "Glycerate2P"
+                ],
+                "enzyme": "Enolase",
+                "type": "reversible",
+                "coefthermo": 1
+            }
+        ]
+    },
+    {
+        "name": "Pyruvate",
+        "position": {
+            "x": 0,
+            "y": 0
+        },
+        "reactions": ["None"]
+    }
+]

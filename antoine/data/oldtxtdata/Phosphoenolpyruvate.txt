@@ -1,0 +1,9 @@
+NAME
+Phosphoenolpyruvate
+
+POSITION
+
+
+REACTIONS
+Glycolysis Coreactants:ADP Products:ATP,Pyruvate Enzyme:PyruvateKinase Type:nonreversible
+Glycolysis Products:Glycerate2P Enzyme:Enolase Type:reversible

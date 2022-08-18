@@ -1,0 +1,9 @@
+NAME
+Glycerate2P
+
+POSITION
+
+
+REACTIONS
+Glycolysis Products:Glycerate3P Enzyme:PGAM1 Type:reversible
+Glycolysis Products:Phosphoenolpyruvate Enzyme:Enolase Type:reversible

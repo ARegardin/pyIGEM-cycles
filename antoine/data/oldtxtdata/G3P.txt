@@ -1,0 +1,18 @@
+NAME
+G3P
+
+POSITION
+200 800
+
+REACTIONS
+Glycolysis Coreactants:DHAP Products:bDFructose16P2 Enzyme:Aldolase Type:reversible
+Glycolysis Products:DHAP Enzyme:TPI Type:reversible
+Glycolysis Coreactants:NADP Products:NADPH,Glycerate13P2 Enzyme:GAPDH Type:reversible
+PPPathway Coreactants:DSedoHeptulose7P Products:DErythrose4P,bDFructose6P Enzyme:Transaldolase Type:reversible
+PPPathway Coreactants:DSedoHeptulose7P Products:DXylulose5P,DRibose5P Enzyme:TK Type:reversible
+PPPathway Coreactants:bDFructose6P Products:DErythrose4P,DXylulose5P Enzyme:TK Type:reversible
+Calvin Products:DHAP Enzyme:TPI Type:reversible
+Calvin Coreactants:DHAP Products:DFructose16P2 Enzyme:Aldolase Type:reversible
+Calvin Coreactants:bDFructose6P Products:DXylulose5P,DErythrose4P Enzyme:TK Type:reversible
+Calvin Coreactants:DSedoHeptulose7P Products:DRibose5P,DXylulose5P Enzyme:TK Type:reversible
+Calvin Coreactants:NADP Products:NADPH,Glycerate13P2 Enzyme:G3PDeshydrogenase Type:reversible

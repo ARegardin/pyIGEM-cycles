@@ -1,0 +1,12 @@
+NAME
+DHAP
+
+POSITION
+
+
+REACTIONS
+Glycolysis Products:G3P Enzyme:TPI Type:reversible
+Glycolysis Coreactants:G3P Products:bDFructose16P2 Enzyme:Aldolase Type:reversible
+Calvin Products:G3P Enzyme:TPI Type:reversible
+Calvin Coreactants:G3P Products:bDFructose16P2 Enzyme:Aldolase Type:reversible
+Calvin Coreactants:DErythrose4P Products:DSedoHeptulose17P2 Enzyme:Aldolase Type:reversible

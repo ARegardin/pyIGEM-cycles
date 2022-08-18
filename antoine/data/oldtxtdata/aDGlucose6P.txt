@@ -1,0 +1,11 @@
+NAME
+aDGlucose6P
+
+POSITION
+200 200
+
+REACTIONS
+Glycolysis Products:bDGlucose6P Enzyme:GPI Type:reversible
+Glycolysis Products:bDFructose6P Enzyme:GPI Type:reversible
+PPPathway Products:bDGlucose6P Enzyme:GPI Type:reversible
+PPPathway Products:bDFructose6P Enzyme:GPI Type:reversible
